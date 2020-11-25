@@ -1,0 +1,10 @@
+server:
+  port: 80
+
+
+spring:
+  application:
+    name: cloud-consumer-service
+  cloud:
+    zookeeper:
+      connect-string: 134.175.82.194:2181
